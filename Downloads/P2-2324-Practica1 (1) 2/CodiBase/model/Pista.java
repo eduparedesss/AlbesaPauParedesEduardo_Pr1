@@ -30,4 +30,11 @@ public class Pista extends Servei {
         this.iluminada = iluminada;
     }
     // no sé per a que servira el constructor de pista
+    
+    public Pista(int mida, String tipusTanca, iluminada){
+        
+        
+        
+        
+    }
 }

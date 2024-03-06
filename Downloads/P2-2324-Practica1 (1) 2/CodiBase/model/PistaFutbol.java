@@ -27,10 +27,9 @@ public class PistaFutbol extends Pista {
     }
 
     public PistaFutbol(String nom, String id, boolean iluminada, String tipusTanca, int mida, String tipusPorteries, int numPorteries){
-        super(nom, id, mida, tipusTanca, iluminada);
-        //with the keyword "super." we're referencing the atributes of the progenitor class: "Servei".
+        super(mida, tipusTanca, iluminada);
         
-        //with the keyword "super." we're referencing the atributes of the progenitor class: "Servei".
+        
         this.tipusPorteries = tipusPorteries;
         this.porteries = numPorteries;
 }
